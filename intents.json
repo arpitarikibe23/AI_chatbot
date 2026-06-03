@@ -1,0 +1,255 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "what's up",
+        "howdy",
+        "greetings",
+        "hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to chat with you. How can I assist?",
+        "Greetings! What would you like to know?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see ya",
+        "take care",
+        "gotta go",
+        "talk to you later",
+        "I'm leaving",
+        "have a good day",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to come back anytime.",
+        "Take care! It was nice chatting with you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "thanks a lot",
+        "thank you so much",
+        "many thanks",
+        "thx",
+        "thanks for your help",
+        "I appreciate that",
+        "cheers"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist! Anything else?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "can you help me",
+        "I need help",
+        "what can you do",
+        "what are your capabilities",
+        "how can you help",
+        "what do you know",
+        "assist me",
+        "I need assistance",
+        "support"
+      ],
+      "responses": [
+        "I can help with general questions, tell jokes, give you the time, and more! Just ask away.",
+        "I'm here to assist! I can answer questions, tell jokes, provide the current time, and chat with you.",
+        "I can do a few things: answer questions, tell jokes, check the time, and have a friendly conversation!",
+        "Need help? I can chat, tell jokes, give you the time, and answer basic questions. Try me!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what's the weather",
+        "how's the weather",
+        "weather today",
+        "is it going to rain",
+        "temperature outside",
+        "weather forecast",
+        "is it sunny",
+        "is it cold outside",
+        "what's it like outside",
+        "do I need an umbrella"
+      ],
+      "responses": [
+        "I don't have real-time weather data, but I'd recommend checking a weather service like weather.com or using a weather app!",
+        "I can't check the weather right now, but you could try asking a voice assistant or checking your phone's weather app.",
+        "Weather data isn't available to me at the moment. For accurate forecasts, try weather.gov or your favorite weather app!",
+        "I wish I could tell you! For real-time weather, check out a weather service or app."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what time is it",
+        "current time",
+        "what's the time",
+        "tell me the time",
+        "do you know the time",
+        "time please",
+        "what hour is it",
+        "can you tell me the time",
+        "clock",
+        "what's the current time"
+      ],
+      "responses": [
+        "TIME_PLACEHOLDER"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "joke",
+        "make me laugh",
+        "say something funny",
+        "do you know any jokes",
+        "humor me",
+        "got any jokes",
+        "tell a joke",
+        "funny",
+        "can you be funny"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "Why did the developer go broke? Because he used up all his cache!",
+        "What's a computer's favorite snack? Microchips!",
+        "Why do Java developers wear glasses? Because they can't C#!",
+        "There are only 10 types of people in the world: those who understand binary and those who don't.",
+        "Why was the JavaScript developer sad? Because he didn't Node how to Express himself!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "what should I call you",
+        "what are you called",
+        "do you have a name",
+        "your name",
+        "tell me your name",
+        "who am I talking to",
+        "introduce yourself",
+        "what do they call you"
+      ],
+      "responses": [
+        "I'm ChatBot, your AI assistant! Nice to meet you.",
+        "You can call me ChatBot! I'm here to help.",
+        "I'm ChatBot — a simple AI assistant built with scikit-learn. How can I help?",
+        "The name's ChatBot. I'm an NLP-powered assistant. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "what's your age",
+        "when were you created",
+        "when were you born",
+        "your age",
+        "are you old",
+        "how long have you existed",
+        "when did you start",
+        "age",
+        "how young are you"
+      ],
+      "responses": [
+        "I'm as old as the last time my code was compiled! Age is just a number for us bots.",
+        "I was just recently created, so I'm pretty new to this world!",
+        "I don't really have an age — I exist in the timeless realm of code.",
+        "Let's just say I'm young at heart... and in code!"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "do you know programming",
+        "what programming languages do you know",
+        "can you code",
+        "tell me about python",
+        "what is machine learning",
+        "explain AI",
+        "what is deep learning",
+        "how does NLP work",
+        "what is artificial intelligence",
+        "tell me about coding"
+      ],
+      "responses": [
+        "I was built with Python using scikit-learn for NLP! Programming is fascinating — it's how humans teach machines to solve problems.",
+        "I know quite a bit about Python and ML! Machine learning is a subset of AI where models learn patterns from data.",
+        "AI and programming go hand in hand. I use TF-IDF vectorization and logistic regression to understand what you're saying!",
+        "NLP (Natural Language Processing) is how I understand your text. I convert words to numbers using TF-IDF, then classify your intent!"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who made you",
+        "who created you",
+        "who built you",
+        "who is your developer",
+        "who designed you",
+        "who programmed you",
+        "who's your creator",
+        "where did you come from",
+        "who is responsible for you",
+        "who wrote your code"
+      ],
+      "responses": [
+        "I was created by a developer exploring AI and NLP. Pretty cool, right?",
+        "A passionate developer built me as a demonstration of NLP and machine learning concepts!",
+        "I was crafted by someone who loves Python and machine learning. I'm a showcase of scikit-learn's capabilities!",
+        "My creator is a developer interested in AI/ML. I'm a project demonstrating intent classification with NLP."
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "how's it going",
+        "are you okay",
+        "you good",
+        "how do you feel",
+        "what's your mood",
+        "are you happy",
+        "feeling good",
+        "how have you been"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! How about you?",
+        "I'm running smoothly! All systems operational. How can I help?",
+        "I'm fantastic! Ready to assist you with whatever you need.",
+        "Feeling good! I'm always happy when I get to chat. What's on your mind?"
+      ]
+    }
+  ]
+}
