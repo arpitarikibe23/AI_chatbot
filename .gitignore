@@ -27,9 +27,9 @@ env/
 Thumbs.db
 desktop.ini
 
-# Trained model files
-models/*.pkl
-models/*.joblib
+# Trained model files (keeping .pkl files for Vercel deployment)
+# models/*.pkl
+# models/*.joblib
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
